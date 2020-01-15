@@ -5,16 +5,13 @@
   "scripts": {
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test": "vue-cli-service test:unit --env=jest-environment-jsdom-fourteen",
-    "test:debug": "node --inspect-brk ./node_modules/@vue/cli-service/bin/vue-cli-service.js test:unit"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "@ag-charts-community": "~22.0.0",
-    "bootstrap": "3.4.1",
+    "ag-charts-community": "~22.1.1",
+    "ag-charts-vue": "~22.1.1",
     "vue": "2.6.10",
-    "vue-property-decorator": "^7.2.0",
-    "vue-router": "3.0.6"
+    "vue-property-decorator": "^7.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.7.0",

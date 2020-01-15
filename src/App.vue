@@ -1,26 +1,18 @@
 <template>
-    <div>
-        <ul v-if="!forDocs" class="nav nav-pills" style="margin-bottom: 20px">
-            <template v-for="route in routes">
-                <li role="presentation" v-bind:key="route.path" :class="{active : $route.path === route.path}">
-                    <router-link :to="route.path">{{route.name}}</router-link>
-                </li>
-            </template>
-        </ul>
-        <router-view></router-view>
-    </div>
+    <ag-charts-vue></ag-charts-vue>
 </template>
 <script>
-    import routes from './routes';
+    import {AgChartsVue} from "ag-charts-vue";
 
     export default {
-        computed: {
-            forDocs() {
-                return this.$route.query.forDocs || false;
-            },
-            routes() {
-                return routes
-            }
+        data() {
+            return {}
         },
+        components: {
+            AgChartsVue,
+        },
+        methods: {},
+        beforeMount() {
+        }
     }
 </script>
