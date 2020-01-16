@@ -3,7 +3,7 @@
   "version": "22.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run serve",
+    "start": "npm run serve --watch",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
