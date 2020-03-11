@@ -8,6 +8,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "vue": "2.6.10",
+    "vue-property-decorator": "^7.2.0",
     "ag-charts-community": "~22.1.1",
     "ag-charts-vue": "~22.1.1"
   },
