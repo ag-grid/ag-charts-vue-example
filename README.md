@@ -1,4 +1,4 @@
-ag-Charts VueJS Component Examples
+AG Charts VueJS Component Examples
 ===================
 
 ## Build Setup
@@ -7,14 +7,13 @@ ag-Charts VueJS Component Examples
 # install dependencies
 npm install
 
-# build for dev 
-npm run start 
+# build for dev
+npm run start
 
-# build for production 
+# build for production
 npm run build
 ```
 
 ## Examples
 
 See [www.ag-grid.com](http://www.ag-grid.com) for full documentation and examples.
-
