@@ -1,6 +1,6 @@
 {
   "name": "ag-charts-vue-example",
-  "version": "3.1.0",
+  "version": "50.0.0",
   "private": true,
   "scripts": {
     "start": "npm run serve --watch",
@@ -10,8 +10,8 @@
   "dependencies": {
     "vue": "2.6.10",
     "vue-property-decorator": "^7.2.0",
-    "ag-charts-community": "~3.1.0",
-    "ag-charts-vue": "~3.1.0"
+    "ag-charts-community": "~50.0.0",
+    "ag-charts-vue": "~50.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.7.0",
