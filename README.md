@@ -1,6 +1,6 @@
 AG Charts VueJS Component Examples
 ===================
-
+ 
 ## Build Setup
 
 ``` bash
