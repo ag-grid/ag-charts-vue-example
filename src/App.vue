@@ -2,7 +2,7 @@
     <div>
         <div>
             <p>Marker Size: {{markerSize}}</p>
-            <button @click="setMarkerSize(25)">Reset Marker Size</button>
+            <button @click="setMarkerSize(10)">Reset Marker Size</button>
             <button @click="setMarkerSize(markerSize - 1)">Decrease Marker Size</button>
             <button @click="setMarkerSize(markerSize + 1)">Increase Marker Size</button>
         </div>
@@ -15,7 +15,7 @@
     export default {
         data() {
             return {
-                markerSize: 25,
+                markerSize: 10,
                 options: {}
             }
         },
@@ -48,11 +48,11 @@
                     }],
                     series: [{
                         xKey: 'month',
-                        yKey: 'revenue'
-                    }],
-                    legend: {
-                        markerSize: this.markerSize
-                    }
+                        yKey: 'revenue',
+                        marker: {
+                            size: this.markerSize
+                        }
+                    }]
                 };
             }
         },
