@@ -1,6 +1,6 @@
 {
   "name": "ag-charts-vue-example",
-  "version": "4.2.0",
+  "version": "5.1.0",
   "private": true,
   "scripts": {
     "start": "npm run serve --watch",
@@ -8,8 +8,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "ag-charts-community": "~4.2.0",
-    "ag-charts-vue": "~4.2.0",
+    "ag-charts-community": "~5.1.0",
+    "ag-charts-vue": "~5.1.0",
     "vue": "2.6.10",
     "vue-property-decorator": "^7.2.0"
   },
@@ -26,6 +26,7 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not ie <= 8"
+    "not ie >= 0",
+    "not ie_mob >= 0"
   ]
 }
