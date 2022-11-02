@@ -1,6 +1,6 @@
 {
   "name": "ag-charts-vue-example",
-  "version": "6.2.0",
+  "version": "6.2.1",
   "private": true,
   "scripts": {
     "start": "npm run serve --watch",
@@ -9,8 +9,8 @@
     "build-prod": "npm run build"
   },
   "dependencies": {
-    "ag-charts-community": "~6.2.0",
-    "ag-charts-vue": "~6.2.0",
+    "ag-charts-community": "~6.2.1",
+    "ag-charts-vue": "~6.2.1",
     "vue": "2.6.10",
     "vue-property-decorator": "^7.2.0"
   },
