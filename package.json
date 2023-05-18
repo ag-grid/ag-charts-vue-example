@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run serve --watch",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
     "build-prod": "npm run build"
   },
   "dependencies": {
