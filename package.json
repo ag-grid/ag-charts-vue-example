@@ -5,8 +5,8 @@
   "scripts": {
     "start": "npm run serve --watch",
     "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
-    "build-prod": "npm run build"
+    "build-x": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
+    "build-prod-x": "npm run build"
   },
   "dependencies": {
     "ag-charts-community": "~8.2.0",
